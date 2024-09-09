@@ -1,5 +1,5 @@
 [workspace]
-members = ["triton-vm", "constraint-evaluation-generator", "gpu-accelerator", "accelerators" ] # "rust-generator"
+members = ["triton-vm", "constraint-evaluation-generator"]
 resolver = "2"
 
 [profile.test]

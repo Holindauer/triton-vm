@@ -1,1 +1,0 @@
-{"backend":"opencl","entry_points":{"test_gpu_kernel":{"cfun":"futhark_entry_test_gpu_kernel","inputs":[{"name":"number","type":"u64","unique":false}],"outputs":[{"type":"u64","unique":false}],"tuning_params":[]}},"types":{},"version":"0.26.0 (prerelease - include info below when reporting bugs).\ngit: 753d9c6 (Sun Jul 28 17:07:51 2024 +0200)\nCompiled with GHC 9.4.8.\n"}
