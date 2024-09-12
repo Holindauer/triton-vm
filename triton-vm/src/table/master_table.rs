@@ -517,7 +517,7 @@ pub struct MasterBaseTable {
     u32_coprocesor_execution_len: usize,
 
     trace_domain: ArithmeticDomain,
-    randomized_trace_domain: ArithmeticDomain,
+    pub randomized_trace_domain: ArithmeticDomain,
     quotient_domain: ArithmeticDomain,
     fri_domain: ArithmeticDomain,
 
