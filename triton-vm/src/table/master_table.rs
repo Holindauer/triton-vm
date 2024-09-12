@@ -523,7 +523,7 @@ pub struct MasterBaseTable {
 
     pub randomized_trace_table: Array2<BFieldElement>,
     low_degree_extended_table: Option<Array2<BFieldElement>>,
-    interpolation_polynomials: Option<Array1<Polynomial<BFieldElement>>>,
+    pub interpolation_polynomials: Option<Array1<Polynomial<BFieldElement>>>,
 }
 
 /// See [`MasterTable`].
