@@ -521,7 +521,7 @@ pub struct MasterBaseTable {
     quotient_domain: ArithmeticDomain,
     fri_domain: ArithmeticDomain,
 
-    randomized_trace_table: Array2<BFieldElement>,
+    pub randomized_trace_table: Array2<BFieldElement>,
     low_degree_extended_table: Option<Array2<BFieldElement>>,
     interpolation_polynomials: Option<Array1<Polynomial<BFieldElement>>>,
 }
