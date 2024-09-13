@@ -519,7 +519,7 @@ pub struct MasterBaseTable {
     trace_domain: ArithmeticDomain,
     pub randomized_trace_domain: ArithmeticDomain,
     quotient_domain: ArithmeticDomain,
-    fri_domain: ArithmeticDomain,
+    pub fri_domain: ArithmeticDomain,
 
     pub randomized_trace_table: Array2<BFieldElement>,
     low_degree_extended_table: Option<Array2<BFieldElement>>,
