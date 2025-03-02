@@ -477,7 +477,7 @@ impl<'stream> FriVerifier<'stream> {
         }
 
         let indeterminate = self.proof_stream.sample_scalars(1)[0];
-        let horner_evaluation = self.last_round_polynomial.evaluate(indeterminate);
+        let horner_evaluation: XFieldElement = self.last_round_polynomial.evaluate(indeterminate);
         let barycentric_evaluation = barycentric_evaluate(&self.last_round_codeword, indeterminate);
         if horner_evaluation != barycentric_evaluation {
             return Err(LastRoundPolynomialEvaluationMismatch);
